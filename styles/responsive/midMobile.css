@@ -5,9 +5,6 @@
     }
 
     /*Hero*/
-    .main-content {
-        flex-direction: column;
-    }
     .title {
         margin-top: 12vh;
     }
@@ -18,10 +15,20 @@
         font-size: 18px;
     }
     .info-section {
-        gap: 25px;
+        flex-direction: column;
     }
     .info-box {
-        width: 30%;
+        width: 90%;
+    }
+    .info-box img {
+        width: 30px;
+        margin-bottom: 0;
+    }
+    .info-box h3 {
+        font-size: 18px;
+    }
+    .info-box p {
+        font-size: 12px;
     }
 
 }
