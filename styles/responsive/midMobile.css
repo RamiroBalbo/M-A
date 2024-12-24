@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    /*Header*/
+    .header nav a {
+        font-size: 14px;
+    }
+
+    /*Hero*/
+    .main-content {
+        flex-direction: column;
+    }
+    .title {
+        margin-top: 12vh;
+    }
+    .title h1 {
+        font-size: 24px;
+    }
+    .title h2 {
+        font-size: 18px;
+    }
+    .info-section {
+        gap: 25px;
+    }
+    .info-box {
+        width: 30%;
+    }
+
+}
